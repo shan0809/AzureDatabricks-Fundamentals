@@ -6,7 +6,7 @@
 # MAGIC %scala
 # MAGIC val mydataframe = spark.read.option("header", "true").option("inferSchema", "true").csv("/mnt/custommount")
 # MAGIC display(mydataframe)
-# MAGIC print("dataframe")
+# MAGIC print("dataframe created")
 
 # COMMAND ----------
 
